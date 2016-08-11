@@ -1,0 +1,19 @@
+This directory contains code for the mergesort case study described in
+chapter 12.
+
+Files:
+
+   mergesort.c    - OpenMP implementation of mergesort
+   merge.c        - C support library
+   Makefile       - makefile to build the mergesort application
+
+To run the code:
+
+1. You will need a OpenMP compliant C compiler to build the mergesort
+   application.  We have tested the mergesort code using GNU C on 4.2.1
+   on Mac OS X.
+
+2. Type "make" to build the mergesort application.
+
+3. Run the code by typing "./mergesort".  You can also explicitly specify the
+   number threads, for example, "./mergesort 4"
