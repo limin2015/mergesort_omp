@@ -1,3 +1,4 @@
 this is created by branch dev
 the second try using dev branch
-3: added by master
+<<<<<<< HEAD
+3: solve the conflict by hand
